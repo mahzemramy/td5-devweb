@@ -1,0 +1,6 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+@keyframes fadeIn { from { opacity: 0; transform: translateY(20px); } to { opacity: 1; transform: translateY(0); } }
+section { animation: fadeIn 0.8s ease-out; }
+::-webkit-scrollbar { width: 10px; }
+::-webkit-scrollbar-track { background: #ecf0f1; }
+::-webkit-scrollbar-thumb { background: linear-gradient(135deg, #667eea, #764ba2); border-radius: 5px; }
